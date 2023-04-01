@@ -5,6 +5,7 @@ import './App.css';
 // import HomePage from './/component/nav/nav'
 // import {Routes, Route} from 'react-router-dom';
 // import {useState} from 'react';
+import Nav from '../src/component/nav/nav'
 
 function App() {
   
@@ -12,7 +13,8 @@ function App() {
     
     <div className="App">
       <div className="nav">
-        hello
+        <Nav/>
+        
       </div>
     </div>
   );
